@@ -9,4 +9,69 @@ body {
   padding: 0;
 }
 
+body {
+  background-color: var(--light-gray);
+}
+
+:root {
+  --primary-green: hsl(160deg, 100%, 30%);
+  --dark-gray: hsl(0deg, 0%, 30%);
+  --light-gray: hsl(0deg, 0%, 60%);
+  --primary-white: hsl(0deg, 0%, 100%);
+  --light-gold: hsl(45deg, 100%, 50%);
+  --dark-gold: hsl(45deg, 100%, 40%);
+}
+
 /* Add styles here! */
+header .max-width-wrapper {
+  background-color: var(--primary-white);
+}
+
+.intro-chunk {
+  max-width: 580px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 24px;
+}
+
+.intro-chunk .title {
+  margin-top: 64px;
+  margin-bottom: 48px;
+}
+
+.intro-chunk p {
+  line-height: 1.5;
+  max-width: 300px;
+}
+
+.intro-chunk p strong {
+  color: var(--primary-green);
+}
+
+main .max-width-wrapper {
+  border-top: 5px solid var(--dark-gray);
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.card {
+  background-color: var(--primary-white);
+  max-width: 580px;
+  margin: 0 auto;
+  padding: 8px 24px;
+  border-bottom: 5px solid var(--dark-gray);
+}
+
+.indented-heading {
+  background-color: var(--light-gold);
+  border-bottom: 4px solid var(--dark-gold);
+  padding: 16px;
+  width: fit-content;
+  margin-left: -32px;
+  margin-top: 0;
+  font-size: 1.25rem;
+}
+
+.card p {
+  line-height: 1.5;
+}
